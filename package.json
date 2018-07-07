@@ -1,0 +1,38 @@
+{
+  "name": "fullstack-exercise",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "fullstack-exercise"
+  },
+  "keywords": [
+    "fullstack-exercise",
+    "mongodb",
+    "node",
+    "react"
+  ],
+  "author": "ety.sheinfeld",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.4",
+    "babel-preset-react": "6.24.1",
+    "jquery": "^2.2.1",
+    "jsdom": "^8.1.0",
+    "webpack": "4.8.3"
+  },
+  "dependencies": {
+    "babel-preset-stage-1": "^6.1.18",
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "react-redux": "5.0.6",
+    "react-router": "4.2.0",
+    "redux": "3.3.1"
+  }
+}
