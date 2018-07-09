@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SubmitForm from "./components/submitForm/submitForm";
 import CommentList from "./components/comments/commentList";
-import './main-app.css';
+import './app.css';
 
 
 class App extends Component {

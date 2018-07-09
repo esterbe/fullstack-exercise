@@ -1,35 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list id="9beba622-d0e5-4997-891a-b464d68c6896" name="temp" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-    </list>
     <list default="true" id="78bff14c-9112-47e6-81d0-f3a3984251af" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/mongodb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/comments/comment.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/comments/commentItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/comments/commentList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/filter/filter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/filter/filter.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/submitForm/submitForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/submitForm/submitForm.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main-app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/images/close_image_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/images/filter.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/startup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,18 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="commentItem.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/comments/commentItem.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="85" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="85" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
@@ -124,11 +85,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="445">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -260,6 +226,46 @@
               <item name="fullstack-exercise" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="fullstack-exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstack-exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullstack-exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstack-exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="comments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullstack-exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstack-exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullstack-exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstack-exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="submitForm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullstack-exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstack-exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullstack-exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstack-exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -308,7 +314,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="78bff14c-9112-47e6-81d0-f3a3984251af" name="Default" comment="" />
-      <changelist id="9beba622-d0e5-4997-891a-b464d68c6896" name="temp" comment="" />
+      <changelist id="" name="temp" comment="" />
       <created>1530805510718</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -322,7 +328,7 @@
       <workItem from="1530980066578" duration="149000" />
       <workItem from="1530980255450" duration="18000" />
       <workItem from="1530980364735" duration="575000" />
-      <workItem from="1530980997383" duration="17358000" />
+      <workItem from="1530980997383" duration="17566000" />
     </task>
     <task id="LOCAL-00001" summary="basic app">
       <created>1531078159279</created>
@@ -338,11 +344,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531078405971</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="react app">
+      <created>1531097181332</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1531097181332</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26705000" />
+    <option name="totallyTimeSpent" value="26913000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -364,7 +377,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5002633" side_tool="true" weight="0.3503055" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.42973524" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33706722" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4997367" weight="0.3299389" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4997367" visible="true" weight="0.46843177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4997367" weight="0.42057025" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -429,7 +442,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/npm-debug.log" />
     <entry file="file://$PROJECT_DIR$/node_modules/react-redux/src/components/connectAdvanced.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2430">
@@ -673,13 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/filter/filter.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/submitForm/submitForm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -704,10 +709,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/filter/filter.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="445">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
