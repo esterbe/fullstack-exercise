@@ -1,5 +1,5 @@
 import React, { Component }   from 'react';
-import hash                   from 'js-hash-code';
+import md5                    from 'md5';
 import autoBind               from 'auto-bind-es5';
 import './comment.css';
 
@@ -11,7 +11,7 @@ class CommentItem extends Component {
     }
 
     render() {
-        let emailHash = hash(this.props.comment.email);
+        let emailHash = md5(this.props.comment.email.trim().toLowerCase());
         let imageUrl = `https://www.gravatar.com/avatar/${emailHash}?s=50`;
         return (
             <li className="list-group-item" onClick={() => this.props.onCommentSelect(this.props.comment)}>

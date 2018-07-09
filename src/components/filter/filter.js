@@ -21,7 +21,7 @@ class Filter extends React.Component {
         }
         else {
             this.refs.filterBox.value = "";
-            this.props.onFilterSubmit();
+            this.props.onFilterClear();
         }
 
         this.setState({
