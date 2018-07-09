@@ -28,8 +28,8 @@ const methods = {
     },
     addComment: function(req, res) {
         var newComment = new Comment({
-            email: req.body.email,
-            message: req.body.message
+            email: req.params.email,
+            message: req.params.message
          });
         newComment.save(function(err) {
             if (err) throw err;
@@ -44,7 +44,9 @@ const methods = {
 
 router.get('/findComments/:email', methods.findComments);
 router.get('/getAllComments',  methods.getAllComments);
-router.post('/addComment', methods.addComment);
+router.get('/addComment/:email/:message',  methods.addComment);
+
+//router.post('/addComment', methods.addComment);
 
 module.exports = Object.assign(router, { methods });
 

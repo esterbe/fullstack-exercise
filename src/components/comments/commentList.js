@@ -25,8 +25,8 @@ class CommentList extends Component {
     }
 
     _addComment(comment) {
-        axios.post(`${API_URL}/addComment`, { comment })
-            .then(res => {
+        axios.get(`${API_URL}/addComment/${comment.email}/${comment.message}`)
+            .then(response => {
                 this._getAllComments();
             })
             .catch(error => console.log(error));
@@ -35,18 +35,9 @@ class CommentList extends Component {
     _getAllComments(){
         axios.get(`${API_URL}/getAllComments`)
             .then(response => {
-
                 this.setState({
                     comments: response.data.comments
                 });
-
-                // // create a new "State" object without mutating
-                // // the original State object.
-                // const newState = Object.assign({}, this.state, {
-                //     comments: response.data.comments
-                // });
-                // // store the new state object in the component's state
-                // this.setState(newState);
             })
             .catch(error => console.log(error));
     }
@@ -54,24 +45,11 @@ class CommentList extends Component {
     _findComments(email){
         axios.get(`${API_URL}/findComments/${email}`)
             .then(response => {
-
                 this.setState({
                     comments: response.data.comments
                 });
-
-                // // create a new "State" object without mutating
-                // // the original State object.
-                // const newState = Object.assign({}, this.state, {
-                //     comments: response.data.comments
-                // });
-                // // store the new state object in the component's state
-                // this.setState(newState);
             })
             .catch(error => console.log(error));
-    }
-
-    _onCommentSelect() {
-
     }
 
     render() {
@@ -81,7 +59,7 @@ class CommentList extends Component {
 
         let comments = this.state.comments.map((comment) => {
             return (
-                <CommentItem key={comment.email} comment={comment} onCommentSelect={this._onCommentSelect}/>
+                <CommentItem key={comment.email} comment={comment} />
             );
         });
 

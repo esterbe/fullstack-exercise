@@ -32,6 +32,11 @@ class SubmitForm extends Component {
         comment.message = this.refs.message.value;
 
         this.props.addComment(comment);
+
+        this.setState({
+            email: '',
+            message: ''
+        });
     }
 
     render() {
