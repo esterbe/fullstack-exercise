@@ -1,0 +1,40 @@
+.filter-form {
+  height: 26px;
+  position: relative;
+  margin: 2px;
+  margin-right: 11px;
+
+  .filter-button {
+    position: absolute;
+    height: 21px;
+    width: 20px;
+    cursor: pointer;
+    border: none;
+
+    &.start-filter {
+      background: url(../../static/images/filter.svg) no-repeat;
+      top: 2px;
+      right: 3px;
+    }
+
+    &.clear-filter {
+      background: url(../../static/images/close_image_icon.png) no-repeat;
+      top: 7px;
+      right: -2px;
+    }
+  }
+
+  input[type=text] {
+    color: #FFFFFF;
+    border-radius: 2px;
+    border: 1px solid #47565a;
+    background-color: transparent;
+    height: 26px;
+    width: 100%;
+    outline: none;
+  }
+
+  input[type=text]:focus {
+    border: 1px solid white;
+  }
+}

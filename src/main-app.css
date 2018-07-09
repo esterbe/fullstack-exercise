@@ -1,0 +1,83 @@
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font: 12px / 1.33333 "Open Sans",OpenSansHebrew, "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+    min-width: 1024px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #e4e4e4;
+}
+
+button, a {
+    outline: none;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+a {
+    cursor: pointer;
+}
+
+a {
+    background-color: transparent;
+}
+
+img {
+    border: 0;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    outline: none;
+}
+
+button {
+    overflow: visible;
+    text-transform: none;
+}
+
+select {
+    text-transform: none;
+}
+
+button, html input[type="button"] {
+    -webkit-appearance: button;
+    /* 2 */
+    cursor: pointer;
+    /* 3 */
+}
+
+button[disabled], html input[disabled] {
+    cursor: default;
+}
+
+textarea {
+    overflow: auto;
+}
+
+.app {
+    background-color: #092229;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 700px;
+    margin-top: -350px;
+    margin-left: -200px;
+    border: 1px solid #ccc;
+}

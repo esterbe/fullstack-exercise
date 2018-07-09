@@ -1,4 +1,3 @@
-var MongoClient = require('mongodb').MongoClient;
 //var http = require("http");
 
 // //create server
@@ -22,17 +21,3 @@ app.get('*', function(request, response) {
 app.listen(port, () => console.log('app listening on port 8008!'));
 
 
-//Connect to the db
-MongoClient.connect('mongodb://localhost', function (err, client) {
-    if(!err) {
-        console.log("We are connected");
-    }
-    else
-        throw err;
-
-    var db = client.db('fullstackexercise');
-    var collection = db.collection('comments');
-    collection.find({}).toArray(function(err, items) { //foreach
-        console.log(items);
-    });;
-});
