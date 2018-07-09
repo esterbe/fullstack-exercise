@@ -67,9 +67,11 @@ class CommentList extends Component {
             <SubmitForm addComment={this._addComment}/>,
             <div className="container">
                 <Filter onFilterSubmit={this._findComments} onFilterClear={this._getAllComments}/>
-                <ul className="col-md-4 list-group">
-                    {comments}
-                </ul>
+                <div className="list-group">
+                    <ul className="col-md-4">
+                        {comments}
+                    </ul>
+                </div>
             </div>]
         );
     }

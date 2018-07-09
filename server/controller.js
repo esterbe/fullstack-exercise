@@ -46,7 +46,6 @@ router.get('/findComments/:email', methods.findComments);
 router.get('/getAllComments',  methods.getAllComments);
 router.get('/addComment/:email/:message',  methods.addComment);
 
-//router.post('/addComment', methods.addComment);
 
 module.exports = Object.assign(router, { methods });
 
