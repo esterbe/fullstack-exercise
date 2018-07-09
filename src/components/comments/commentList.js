@@ -1,10 +1,17 @@
-import React, { Component }   from 'react';
-import CommentItem          from './commentItem';
-import Filter               from '../filter/filter';
-import './comment.scss';
+import React, { Component }     from 'react';
+import CommentItem              from './commentItem';
+import Filter                   from '../filter/filter';
+import autoBind                 from 'auto-bind-es5';
+
+import './comment.css';
 
 
 class CommentList extends Component {
+
+    constructor() {
+        super();
+        autoBind(this);
+    }
 
     _getCommentsList(textFilter){
         //TODO
@@ -23,7 +30,7 @@ class CommentList extends Component {
         });
 
         return (
-            <div>
+            <div className="container">
                 <Filter onFilterSubmit={this._getCommentsList}/>
                 <ul className="col-md-4 list-group">
                     {comments}

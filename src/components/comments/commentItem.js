@@ -1,24 +1,30 @@
 import React, { Component }   from 'react';
 import hash                   from 'js-hash-code';
-import './comment.scss';
+import autoBind               from 'auto-bind-es5';
+import './comment.css';
 
 
 class CommentItem extends Component {
+    constructor() {
+        super();
+        autoBind(this);
+    }
+
     render() {
         let emailHash = hash(this.props.comment.email);
-        let imageUrl = `https://www.gravatar.com/avatar/${emailHash}`;
+        let imageUrl = `https://www.gravatar.com/avatar/${emailHash}?s=50`;
         return (
             <li className="list-group-item" onClick={() => this.props.onCommentSelect(this.props.comment)}>
                 <div className="comment">
-                    <div className="column">
+                    <div className="image">
                         <img alt="" src={imageUrl} />
                     </div>
-                    <div className="column">
+                    <div className="content">
                         <div className="email">
-                            {this.props.email}
+                            {this.props.comment.email}
                         </div>
                         <div className="message">
-                            {this.props.message}
+                            {this.props.comment.message}
                         </div>
                     </div>
                 </div>

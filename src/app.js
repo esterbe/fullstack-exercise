@@ -1,12 +1,15 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import SubmitForm from "./components/submitForm/submitForm";
 import CommentList from "./components/comments/commentList";
+import autoBind from 'auto-bind-es5';
+
 import './app.css';
 
 
 class App extends Component {
     constructor() {
         super();
+        autoBind(this);
 
         this.state = {
             comments: [
@@ -18,24 +21,24 @@ class App extends Component {
                     email: "shai@gmail.com",
                     message: "Gooooood!"
                 }
-                ]
+            ]
         }
     }
 
 
-    _addComment(comment){
+    _addComment(comment) {
         let comments = this.state.comments;
         comments.push(comment);
         this.setState({comments});
     }
 
     render() {
-       return (
-         <div className="app">
-           <SubmitForm addComment={this._addComment}/>
-           <CommentList comments={this.state.comments}/>
-         </div>
-       );
+        return (
+            <div className="app">
+                <SubmitForm addComment={this._addComment}/>
+                <CommentList comments={this.state.comments}/>
+            </div>
+        );
     }
 }
 

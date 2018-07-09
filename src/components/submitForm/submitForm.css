@@ -1,0 +1,52 @@
+.submit-form {
+  height: 250px;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+textarea {
+  resize: none;
+}
+.submit-email {
+  margin-bottom: 10px;
+  height: 40px;
+}
+.submit-message {
+  border-radius: 2px;
+  border-color: #607074;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+
+.form-save {
+  width: 74px;
+  height: 26px;
+  border-radius: 2px;
+  background-color: #82d5e6;
+  float: right;
+  color: #081f27;
+  margin-top: 10px;
+  border: 1px solid #455559;
+  text-transform: uppercase;
+  align-self: flex-end;
+}
+
+.form-save:hover {
+  cursor: pointer;
+  background: #aef1ff;
+}
+
+.form-save:disabled {
+  opacity: 0.5;
+  cursor: default;
+  height: 26px;
+}
+
+.form-save:hover {
+  cursor: auto;
+  background: #82d5e6;
+}

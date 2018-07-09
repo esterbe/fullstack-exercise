@@ -1,9 +1,11 @@
 import React              from 'react';
-import './filter.scss';
+import autoBind           from 'auto-bind-es5';
+import './filter.css';
 
 class Filter extends React.Component {
     constructor() {
         super();
+        autoBind(this);
 
         this.state = {
             inFilterMode: false
@@ -32,7 +34,7 @@ class Filter extends React.Component {
 
         return (
             <form className="filter-form" ref="filterForm" onSubmit={this._onFilterSubmit}>
-                <input ref="filterBox"
+                <input ref="filterBox" className="filter-box"
                        type="text"
                        onFocus={this._textAreaFocus}
                        onBlur={this._textAreaBlur}
